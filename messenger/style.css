@@ -1,0 +1,69 @@
+.xboxmessages {
+    overflow: auto;
+    scrollbar-width: none;
+    width: 600px;
+    height: 300px;
+    margin: 15px auto 0px auto;
+    border: 1px solid #BBBBBB;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 5px;
+    color: gray;
+}
+.xboxmessages::-webkit-scrollbar {
+    display: none;
+}
+.xmessege {
+    background: #EEEEEE;
+    margin-bottom: 3px;
+    padding: 9px;
+    border-radius: 3px;
+}
+.xmessege:hover {
+    background: #E5E5E5;
+}
+
+.xboxmessenger {
+    width: 600px;
+    margin: -1px auto auto auto;
+    padding: 5px;
+    background: #CCCCCC;
+    border: 1px solid #BBBBBB;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.xboxname {
+    width: 60px;
+    color: gray;
+    border: 1px solid #BBBBBB;
+    border-radius: 3px;
+    outline: none;
+    padding: 5px;
+}
+.xboxname:focus {
+    border: 1px solid gray;
+}
+.xboxmessege {
+    width: 446px;
+    color: gray;
+    border: 1px solid #BBBBBB;
+    border-radius: 3px;
+    outline: none;
+    padding: 5px;
+}
+.xboxmessege:focus {
+    border: 1px solid gray;
+}
+.xboxsubmit {
+    width: 62px;
+    color: gray;
+    border: 1px solid #BBBBBB;
+    border-radius: 3px;
+    outline: none;
+    padding: 5px;
+    background: white;
+}
+.xboxsubmit:active {
+    color: gray;
+    border: 1px solid gray;
+}
