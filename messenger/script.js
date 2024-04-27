@@ -1,11 +1,11 @@
 var xsocket = 'ws://localhost:8080/messenger/server.php';
-xwebsocket = new WebSocket(xsocket);
+var xwebsocket = new WebSocket(xsocket);
 
 xwebsocket.onopen = function () {
     document.getElementById('xboxmessages').innerHTML += '<div class="xmessege" style="color: darkgreen;">connection open</div>';
 };
 
-xwebsocket.onclose = function () {
+xwebsocket.onerror = function () {
     document.getElementById('xboxmessages').innerHTML += '<div class="xmessege" style="color: darkred;">connection error</div>';
 };
 
